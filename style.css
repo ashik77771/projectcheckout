@@ -671,8 +671,12 @@ select {
 		color: hsla(0, 0%, 0%, 1);
 		margin-top: 4px;
 	}
+	.right-dropdown{
+		margin-top: 40px;
+	}
 	.prefferred-dropdown-wrapper {
 		display: flex;
+		flex-direction: column;
 		padding: 15px auto 60px 40px;
 	}
 	select {
